@@ -1,4 +1,4 @@
 kwt-yahoo-boss-bundle
 =====================
 
-Yahoo BOSS Bundle
+Yahoo BOSS API Bundle
