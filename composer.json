@@ -3,6 +3,7 @@
 	"description": "Bundle add service for Yahoo BOSS API",
 	"keywords": ["yahoo","oauth", "symfony"],
 	"homepage": "https://github.com/valeryvkrukov/kwt-yahoo-boss-bundle",
+	"version": "dev",
 	"license": "MIT",
 	"authors": [
 	    {
@@ -24,15 +25,9 @@
     "minimum-stability": "dev",
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "kwt-yahoo-boss-bundle/kwt-yahoo-boss-bundle",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/valeryvkrukov/kwt-yahoo-boss-bundle.git",
-                    "reference": "master"
-                }
-            }
+            "type": "git",
+            "url": "https://github.com/valeryvkrukov/kwt-yahoo-boss-bundle.git",
+            "reference": "master"
         }
     ]
 }
