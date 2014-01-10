@@ -1,0 +1,25 @@
+{
+	"name": "kwt-yahoo-boss-bundle/kwt-yahoo-boss-bundle",
+	"description": "Bundle add service for Yahoo BOSS API",
+	"homepage": "https://github.com/valeryvkrukov/kwt-yahoo-boss-bundle",
+	"license": "MIT",
+	"authors": [
+	    {
+	        "name": "Valery V. Krukov",
+            "email": "valery.v.krukov@gmail.com"
+	    }
+	],
+	"require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": { "KWT\\Yahoo\\BossBundle": "" }
+    },
+    "target-dir": "KWT/Yahoo/BossBundle",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/valeryvkrukov/kwt-yahoo-boss-bundle.git"
+        }
+    ]
+}
