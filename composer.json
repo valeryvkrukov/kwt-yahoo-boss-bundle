@@ -22,12 +22,10 @@
         "psr-0": { "KWT\\Yahoo\\BossBundle": "" }
     },
     "target-dir": "KWT/Yahoo/BossBundle",
-    "minimum-stability": "dev",
     "repositories": [
         {
-            "type": "git",
-            "url": "https://github.com/valeryvkrukov/kwt-yahoo-boss-bundle.git",
-            "reference": "master"
+            "type": "vcs",
+            "url": "https://github.com/valeryvkrukov/kwt-yahoo-boss-bundle"
         }
     ]
 }
