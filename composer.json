@@ -1,15 +1,15 @@
 {
-	"name": "valeryvkrukov/kwt-yahoo-boss-bundle",
-	"description": "Bundle add service for Yahoo BOSS API",
-	"type": "symfony-bundle",
-	"homepage": "https://github.com/valeryvkrukov/kwt-yahoo-boss-bundle",
-	"authors": [
-	    {
-	        "name": "Valery V. Krukov",
+    "name": "kwt-yahoo-boss-bundle/kwt-yahoo-boss-bundle",
+    "description": "Bundle add service for Yahoo BOSS API",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/valeryvkrukov/kwt-yahoo-boss-bundle",
+    "authors": [
+        {
+            "name": "Valery V. Krukov",
             "email": "valery.v.krukov@gmail.com"
-	    }
-	],
-	"require": {
+            }
+        ],
+        "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": "*"
     },
