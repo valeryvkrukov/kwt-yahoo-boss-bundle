@@ -1,6 +1,7 @@
 {
 	"name": "kwt-yahoo-boss-bundle/kwt-yahoo-boss-bundle",
 	"description": "Bundle add service for Yahoo BOSS API",
+	"type": "symfony-bundle",
 	"homepage": "https://github.com/valeryvkrukov/kwt-yahoo-boss-bundle",
 	"authors": [
 	    {
