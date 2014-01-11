@@ -3,13 +3,14 @@
     "description": "Bundle add service for Yahoo BOSS API",
     "type": "symfony-bundle",
     "homepage": "https://github.com/valeryvkrukov/kwt-yahoo-boss-bundle",
+    "license": "MIT",
     "authors": [
         {
             "name": "Valery V. Krukov",
             "email": "valery.v.krukov@gmail.com"
-            }
-        ],
-        "require": {
+        }
+    ],
+    "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": "*"
     },
