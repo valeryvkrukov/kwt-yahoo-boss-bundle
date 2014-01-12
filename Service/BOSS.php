@@ -42,7 +42,7 @@ class BOSS{
 		if(isset($response->error)){
 			throw new YahooBossApiException($response->error->description.': '.$response->error->detail);
 		}*/
-		return $response;
+		return simplexml_load_string($response);
 	}
 	
 	protected function xmlToJson($xml){
