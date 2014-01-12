@@ -32,7 +32,7 @@ class BOSS{
 		$request->sign_request(new MethodHMACSHA1(),$this->_consumer,null);
 		$this->_url=sprintf('%s?%s',$this->_api_url,Util::build_http_query($args));
 		$this->_headers=array($request->to_header());
-		$this->getResult($request);
+		return $this->getResult($request);
 	}
 	
 	protected function getResult(Request $request){
